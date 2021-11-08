@@ -147,3 +147,21 @@ Click on next → click on Next: Review on next page → enter name as **humalec
     ]
 }
 ```
+We just created a new IAM policy, now let's create a new user to be used with Humalect Platform and associate this policy to the user   
+
+click on this [link](https://console.aws.amazon.com/iam/home#/users$new?step=details)  
+
+add name of user as **humalect-user**  
+
+check the box next to **Access key - Programmatic access**  
+
+Click on **Next: Permissions** button  
+
+Click on **Attach existing policies directly** and select the **humalect-policy**that we created in the previous step  
+
+Click on **Next:Tags** -> click on **Next:Review** -> Click on **Create User**
+
+Now you will see AWS ACCESS KEY ID and AWS SECRET ACCESS KEY. Save them both. You have now successfully created a new user for humalect platform and have obtained its API credentials for programmatic access
+
+Return back to the humalect onboarding screen in the previous tab and enter AWS ACCESS KEY ID and AWS SECRET ACCESS KEY that you created
+
