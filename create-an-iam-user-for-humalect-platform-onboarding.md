@@ -1,4 +1,4 @@
-Login to your AWS Account and click on this [link](https://console.aws.amazon.com/iam/home#/policies$new?step=edit)
+Login to your AWS Account and click on this <a href="https://console.aws.amazon.com/iam/home#/policies$new?step=edit" target="_blank">link</a> 
 
 Go to the JSON tab, replace the existing JSON with JSON below.
 
